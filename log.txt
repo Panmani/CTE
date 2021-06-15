@@ -1,0 +1,19 @@
+> CTE (course teacher evaluation) sentiment analysis
+  Task
+    Positive or negative?
+    How positive (-5, 5)? Magnitude?
+    What is it positive about? What aspect? Classification
+
+  Data
+    972 examples
+
+    Cat & sub-cat
+
+  Method
+    Cluster
+
+--- Jun 11, 2021
+  v1: ELMO embedding, then LSTM to get sentence embedding: https://tfhub.dev/google/elmo/2
+      SVM and MLP
+
+      ODM: object, magnitude, direction for *** each sentence ***. (Each sentence could have different sentiment direction)
